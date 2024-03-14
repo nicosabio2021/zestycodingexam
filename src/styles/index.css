@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl my-4;
+}
+
+h3 {
+  @apply text-2xl mb-2;
+}
+
+ul {
+  @apply pl-8;
+}
+
+table {
+  @apply !w-1/2 mx-auto my-12;
+}
+table td {
+  @apply border-2  p-2 text-center uppercase font-bold;
+}
